@@ -72,7 +72,11 @@ animal_to_fact = {
     'parrot': 'Parrots will selflessly help each other out.',
     'mantis shrimp': 'The mantis shrimp has the world\'s fastest punch.',
     'lion': 'Female lions do 90 percent of the hunting.',
-    'narwhal': 'Narwhal tusks are really an "inside out" tooth.'
+    'narwhal': 'Narwhal tusks are really an "inside out" tooth.',
+    'pistol shrimp': 'The Pistol Shrimp is capable of snapping it’s claw shut so rapidly, that it creates a bubble which collapses to produce a sonic blast.',
+    'otters': 'Otters “hold hands” while sleeping, so they don’t float away from each other.',
+    'hummingbirds': 'Hummingbirds are the only known birds that can also fly backwards.',
+    'dolphins': 'Dolphins use toxic pufferfish to \'get high\'.'
 }
 
 place_holder = {
