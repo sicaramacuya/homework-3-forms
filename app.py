@@ -5,6 +5,11 @@ import json
 import os
 import random
 import requests
+# from dotenv import load_dotenv
+# load_dotenv()
+
+secret_key = os.getenv('SECRET_KEY')
+print(secret_key)
 
 app = Flask(__name__)
 
@@ -144,7 +149,6 @@ def apply_filter(file_path, filter_name):
 @app.route('/image_filter', methods=['GET', 'POST'])
 def image_filter():
     """Filter an image uploaded by the user, using the Pillow library."""
-    filter_types = filter_types_dict.keys()
 
     if request.method == 'POST':
         
